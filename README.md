@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-Carshare is an app the allows users to rent peples personal cars for their trip.
+Carshare is an app the allows users to rent people's personal cars for their trip.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Travel
-- **Mobile:** The app will start out just for mobile phones then it will eventully be able to be used on the computer. 
-- **Story:** The app will take the pickup location and dates the car will be used and give the user the cars that will be avabilbe to rent.
-- **Market:** Anyone that wants to rent a car but not through a big rental company, 
+- **Mobile:** The app will start out just for mobile phones then it will eventually be able to be used on the computer. 
+- **Story:** The app will take the pickup location and dates the car will be used and give the user the cars that will be available to rent.
+- **Market:** Anyone that wants to rent a car but not through a big rental company.
 - **Habit:** The app will be used as much as the user wanted to travel or needs to rent a car. 
-- **Scope:** First the app will just be used in the United States then eventully the app will be used worldwilde.
+- **Scope:** First the app will just be used in the United States then eventually the app will be used worldwilde.
 
 ## Product Spec
 
@@ -44,7 +44,7 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
 **Optional Nice-to-have Stories**
 
  * putting their own car on to the app
- * selecting a spefic car type to rent 
+ * selecting a specific car type to rent 
  * maps shows all cars near the user to rent 
  
 
