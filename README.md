@@ -1,5 +1,3 @@
-Original App Design Project - README Template
-===
 
 # CarShare
 
@@ -97,13 +95,58 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
 
 
 ## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
+Property	  | Type  |        Description        |
+| :--------- |:-----:| -------------------------:|
+| CarID      | String| Unique ID for Cars posted |
+| Carimage   | File  |   		Image of vehicle      |
+| review     | Review| comment of vehicle posted |
+	
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+Networking
+List of network requests by screen
+•	Sign Up Screen
+ o	(Update/PUT) User Sign Up
+func myMethod() {
+  var user = PFUser()
+  user.username = "myUsername"
+  user.password = "myPassword"
+  user.email = "email@example.com"
+
+  user.signUpInBackground {
+    (succeeded: Bool, error: Error?) -> Void in
+    if let error = error {
+      let errorString = error.localizedDescription
+      // Show the errorString somewhere and let the user try again.
+    } else {
+      // Go to Home Screen
+    }
+  }
+}
+
+•	Login Screen
+ o	(Update/PUT) User log in
+
+PFUser.logInWithUsername(inBackground:"userName", password:"passWord") {
+  (user: PFUser?, error: Error?) -> Void in
+  if user != nil {
+    // Go to Home Screen
+  } else {
+    // The login failed. Check error to see why.
+  }
+}
+
+•	Home Feed Screen
+ o	(Read/Get) View posts of vehicles
+ o	(Read/GET) View reviews of vehicle
+ o	(Create/POST) User can create reviews of vehicle
+•	Filter Screen
+ o	(Read/GET) Get pickup/drop off location and Start/End date from USER
+•	Profile Screen
+ o	(Read/GET) Query logged in user object
+ o	(Update/PUT) Update user profile image
+
+
 
 ## Unit 10 Update![](https://i.imgur.com/JaEqDsV.gif)
 
@@ -112,4 +155,3 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
 
 ## Unit 12 Update 
 ![](https://i.imgur.com/wCMxyjQ.gif)
-
