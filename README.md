@@ -31,11 +31,11 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
 
 **Required Must-have Stories**
 
- * User can register for an account 
- * User can login 
- * User can choose location to get car 
- * User can choose dates to pick cars 
- * User can see all the cars 
+ * User can register for an account (done)
+ * User can login (done)
+ * User can choose location to get car (done)
+ * User can choose dates to pick cars (done)
+ * User can see all the cars (done)
  * User can leave review about the car
  
 
