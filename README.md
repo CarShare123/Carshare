@@ -1,3 +1,5 @@
+Original App Design Project - README Template
+===
 
 # CarShare
 
@@ -31,12 +33,12 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
 
 **Required Must-have Stories**
 
- * User can register for an account (done)
- * User can login (done)
- * User can choose location to get car (done)
- * User can choose dates to pick cars (done)
- * User can see all the cars (done)
- * User can leave review about the car
+ * User can register for an account [x]
+ * User can login [x]
+ * User can choose location to get car [x]
+ * User can choose dates to pick cars [x]
+ * User can see all the cars [x]
+ * User can leave review about the car[x]
  
 
 **Optional Nice-to-have Stories**
@@ -155,3 +157,7 @@ PFUser.logInWithUsername(inBackground:"userName", password:"passWord") {
 
 ## Unit 12 Update 
 ![](https://i.imgur.com/wCMxyjQ.gif)
+## Unit 12 Update 
+![](https://i.imgur.com/C2jN4kk.gif)
+
+
